@@ -1,1 +1,16 @@
-<p>grafica1 works!</p>
+<div class="row">
+    <div class="col-6">
+        <app-dona title="Ventas" [labels]="['Download Sales', 'In-Store Sales', 'Mail-Order Sales']" [data]="[1,1,98]"></app-dona>
+    </div>
+    <div class="col-6">
+        <app-dona title="Almacén" [labels]="['producto 1', 'producto 2', 'producto 3']" [data]="[10,10,80]"></app-dona>
+    </div>
+</div>
+<div class="row">
+    <div class="col-6">
+        <app-dona title="RRHH" [labels]="['empleado 1', 'empleado 2', 'empleado 3']" [data]="[20,20,60]"></app-dona>
+    </div>
+    <div class="col-6">
+        <app-dona title="Contabilidad" [labels]="['contabilidad fiscal', 'contabilidad financiera', 'contabilidad administrativa']" [data]="[98,1,1]"></app-dona>
+    </div>
+</div>
